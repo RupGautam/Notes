@@ -52,9 +52,9 @@ A more sophisticated compression function, which helps eliminate repeated patter
 
 This method maps an integer *i*to 
 
-​		$\mathcal{[ (ai + b)\  mod\ p ]\ mod\ N }$ 
+$\mathcal{[ (ai + b)\  mod\ p ]\ mod\ N }$ 
 
-Where *N*is the size of the bucket array, *P*is a prime number larger than *N,*and *a and b*are integers chosen at random from the interval $[0, p - 1], $ with $a\ >\ 0$ . This function is chosen in order to eliminate repeated patterns in the set of hash codes and get us closer to having a "good" hash function
+Where *N *is the size of the bucket array, *P *is a prime number larger than *N, *and *a and b* are integers chosen at random from the interval $[0, p - 1], $ with $a\ >\ 0$ . This function is chosen in order to eliminate repeated patterns in the set of hash codes and get us closer to having a "good" hash function
 
 ## 
 

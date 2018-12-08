@@ -28,8 +28,6 @@ public interface Iterator<E>{
 #### The Iterable interface 
 A single iterator instance supports only one pass through a collection; there is no way to *reset*the iterator back to begining of the sequence. However, a data structure that wishies to allow repeated iterations can support a method that returns a new iterator, each time it is called 
 
-TODO: add more info 
-
 #### Implementing Iterators
 Generally there are two style to implement iterators:
 ##### Snapshot iterator
